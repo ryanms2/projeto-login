@@ -46,12 +46,14 @@
     }
 
     main > article > form > div > label {
-        padding: 15px 4px;
+        padding: 20px 4px 9px 4px;
     }
     
     main > article > form > div > label > input {
         width: 50%;
         height: 38px;
+        transform: translateY(-6px);
+        margin-left: 2px;
         
     }
 

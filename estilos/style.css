@@ -16,11 +16,20 @@ main {
     background-color: white;
     text-align: justify;
     border-radius: 10px;
-    transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.454);
     
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s; 
+    transition-timing-function: ease;
+    
+}
+
+main > article {
+   transition: width .3s, height .3s; 
+   transition-timing-function: ease;
 }
 
 img {
@@ -52,9 +61,8 @@ form {
 main > article > form > div > label {
     color: white;
     background-color: #696969;
-    padding: 7px 2px;
+    padding: 15px 2px 5px 2px;
     border-radius: 5px;
-    
 }
 
 main > article > form > div > label > input {
@@ -63,6 +71,7 @@ main > article > form > div > label > input {
     border-width: 0px;
     background-color: #5997caad;
     cursor: pointer;
+    transform: translateY(-5px);
     
 }
 
