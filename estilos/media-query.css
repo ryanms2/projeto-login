@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    html, body {
+        height: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: linear-gradient(to bottom, #d8bfd8 25%, #696969, #4682b4 );
+        background-attachment: fixed;
+    }
+    
+    main {
+        min-width: 70%;
+        text-align: center;
+        transition: 100ms;
+        
+    }
+
+    img {
+        float: left;
+        width: 40%;
+        height: 360px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    main > article > h2 {
+        margin: 0px;
+        padding-top: 10px;
+    }
+    
+    main > article > p {
+        text-align: left;
+    }
+
+    main  form {
+        padding: 0px;
+    }
+
+    div.inputs {
+        margin-top: 9px;
+    }
+
+    main > article > form > div > label {
+        padding: 15px 4px;
+    }
+    
+    main > article > form > div > label > input {
+        width: 50%;
+        height: 38px;
+        
+    }
+
+    input#entrar {
+        width: 55%;
+    }
+
+    input#esqueci {
+        width: 55%;
+    }
+}
+
+
+@media screen and (min-width: 1050px) {
+    img {
+        float: right;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    main > article > p {
+        text-align: left;
+    }
+
+    main > article > form > div > label > input {
+        width: 54.5%;
+    }
+
+    input#entrar {
+        width: 58%;
+    }
+
+    input#esqueci {
+        width: 58%;
+    }
+}
